@@ -11,7 +11,7 @@ node ('node') {
         sh 'npm test'
         }
         
-        stage Build Docker'{
+        stage 'Build Docker'{
         sh './dockerbuild.sh'
         }
         
